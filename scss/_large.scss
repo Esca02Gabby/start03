@@ -1,0 +1,46 @@
+header, footer {
+    max-width: 60rem;
+    margin: auto;
+}
+
+#mainWrapper {
+    width: 80%;
+    margin-left: 10%;
+} 
+
+
+details {
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    margin-left: 10%;
+    ul {
+        list-style-type: none;
+        display: flex;
+        width: 50%;
+        li {
+            flex: 1;
+            border: none;
+            color: black;
+        }
+    }
+    li.active {
+       color: black;
+    }
+    ul li a {
+        display: block;
+        padding: .75rem;
+        text-align: center;
+        color: black;
+        &:hover {
+            text-decoration: underline 3px #020e96;
+            text-decoration-style: wavy;
+        }
+    }
+}
